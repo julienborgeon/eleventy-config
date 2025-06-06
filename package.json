@@ -1,24 +1,25 @@
 {
-  "name": "eleventy-config",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/julienborgeon/eleventy-config.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/julienborgeon/eleventy-config/issues"
-  },
-  "homepage": "https://github.com/julienborgeon/eleventy-config#readme",
-  "description": "",
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.1"
-  }
+	"name": "eleventy-config",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve --incremental"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/julienborgeon/eleventy-config.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/julienborgeon/eleventy-config/issues"
+	},
+	"homepage": "https://github.com/julienborgeon/eleventy-config#readme",
+	"description": "",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.1"
+	}
 }
