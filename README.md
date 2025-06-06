@@ -1,0 +1,1 @@
+ELeventy base configuration.
